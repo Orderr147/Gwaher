@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="https://www.netmeds.com/assets/gloryweb/favicon.png" type="image/png"/>
     <!-- <link rel="shortcut icon" href="https://www.netmeds.com/assets/gloryweb/favicon.png" type="image/png"/> -->
     <script src="https://kit.fontawesome.com/5fa36d54c1.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="../styles/navbar.css" /> -->
-    <link rel="stylesheet" href="../index.css">
+    <!-- <link rel="stylesheet" href="./navbar.css" /> -->
+    <link rel="stylesheet" href="./index.css">
     
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
@@ -650,7 +650,7 @@ width: 20%;
 
 <script type="module">
 
-import * as comp from "../components/navbar.js"
+import * as comp from "./navbar.js"
 
 document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 
@@ -659,7 +659,7 @@ document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 document.getElementById("search_bar").addEventListener("keypress" , ()=>{
     if(event.key == "Enter") {
         localStorage.setItem("search" , document.getElementById("search_bar").value);
-        window.location.href = "SearchedPage/search.html"
+        window.location.href = "./search.html"
     }
 });
 
@@ -712,7 +712,7 @@ async function getSearchData(user_key) {
 
 document.getElementById("logout_data").addEventListener("click" , ()=>{
   localStorage.setItem("login_status" , false);
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 })
 
 
