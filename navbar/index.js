@@ -1,4 +1,4 @@
-import * as comp from "./components/navbar.js";
+import * as comp from "./navbar.js";
 
 document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 
@@ -9,7 +9,7 @@ document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 document.getElementById("search_bar").addEventListener("keypress" , ()=>{
     if(event.key == "Enter") {
         localStorage.setItem("search" , document.getElementById("search_bar").value);
-        window.location.href = "SearchedPage/search.html"
+        window.location.href = "./search.html"
     }
 });
 
@@ -55,7 +55,7 @@ async function getSearchData(user_key) {
 
             li.addEventListener("click" , ()=>{
                 localStorage.setItem("clicked" , JSON.stringify(elem));
-                window.location.href = "Product_Description_page/productDetails.html";
+                window.location.href = "./productDetails.html";
             })
             document.getElementById("search_append").append(li);
         }
