@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="https://www.netmeds.com/assets/gloryweb/favicon.png" type="image/png"/>
     <!-- <link rel="shortcut icon" href="https://www.netmeds.com/assets/gloryweb/favicon.png" type="image/png"/> -->
     <script src="https://kit.fontawesome.com/5fa36d54c1.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="../styles/navbar.css" /> -->
-    <link rel="stylesheet" href="../index.css">
+    <!-- <link rel="stylesheet" href="./navbar.css"/> -->
+    <link rel="stylesheet" href="./index.css">
     
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
@@ -329,7 +329,7 @@
             <div class="profile_details">
               <h1 id="update_fullname1">Anshu Raj</h1>
               <p style="font-style: italic" id="updated_id">
-                fakereal477@gmail.com
+                manaradel99760@gmail.com 
               </p>
               <p>+91- <span id="modify_num3"></span></p>
             </div>
@@ -529,9 +529,9 @@
   })
 </script>
 <script type="module">
-// import navbar from "../scripts/navbar.js";
+// import navbar from "./navbar.js";
 
-import * as comp from "../components/navbar.js"
+import * as comp from "./navbar.js"
 
 document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 
@@ -540,7 +540,7 @@ document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 document.getElementById("search_bar").addEventListener("keypress" , ()=>{
     if(event.key == "Enter") {
         localStorage.setItem("search" , document.getElementById("search_bar").value);
-        window.location.href = "SearchedPage/search.html"
+        window.location.href = "./search.html"
     }
 });
 
@@ -582,7 +582,7 @@ async function getSearchData(user_key) {
 
             li.addEventListener("click" , ()=>{
                 localStorage.setItem("clicked" , JSON.stringify(elem));
-                window.location.href = "Product_Description_page/productDetails.html";
+                window.location.href = "./productDetails.html";
             })
 
             document.getElementById("search_append").append(li);
@@ -593,7 +593,7 @@ async function getSearchData(user_key) {
 
 document.getElementById("logout_data").addEventListener("click" , ()=>{
   localStorage.setItem("login_status" , false);
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 })
   let see = document.getElementById("popup");
   let name = document.getElementById("popup_fname");
