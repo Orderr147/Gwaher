@@ -1,5 +1,5 @@
 
-import * as comp from "../components/navbar.js";
+import * as comp from "./navbar.js";
 
 document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 
