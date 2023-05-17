@@ -17,7 +17,7 @@ function mainNavbar(){
     return  `<div class="mobile_res">
     <div class="res_nav clr">
         <div class="res_logo">
-            <img src="https://nms-assets.s3-ap-south-1.amazonaws.com/images/cms/aw_rbslider/slides/1663609483_netmeds-new-logo.svg" alt="Not found" />
+            <img src="./M (1) (2).png" alt="Not found" />
         </div>
 
         <div class="res_profile">
