@@ -59,7 +59,7 @@ function mainNavbar(){
 <nav  id="nav">
     <div class="Upper_section">
         <div class="logo_section">
-            <a href="./index.html"><img src="https://nms-assets.s3-ap-south-1.amazonaws.com/images/cms/aw_rbslider/slides/1663609483_netmeds-new-logo.svg" alt="Not found" /></a>
+            <a href="./index.html"><img src="././M (1) (2).png" alt="Not found" /></a>
         </div>
         <div class="search_bar_section">
             <label class="input_box_label" > 
