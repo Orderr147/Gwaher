@@ -59,7 +59,7 @@ function mainNavbar(){
 <nav  id="nav">
     <div class="Upper_section">
         <div class="logo_section">
-            <a href="./index.html"><img src="./M (2).png" alt="Not found" /></a>
+            <a href="./index.html"><img src="./M (4).png" alt="Not found" /></a>
         </div>
         <div class="search_bar_section">
             <label class="input_box_label" > 
