@@ -66,7 +66,7 @@ add_div[index].append(h3);
 
 
 document.getElementById("acc_info").addEventListener("click" , ()=>{
-    window.location.href = "profile.html";
+    window.location.href = "./profile.html";
 })
 
 
