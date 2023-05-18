@@ -7,7 +7,7 @@ document.getElementById("main_navbar").innerHTML = comp.mainNavbar();
 document.getElementById("search_bar").addEventListener("keypress" , ()=>{
     if(event.key == "Enter") {
         localStorage.setItem("search" , document.getElementById("search_bar").value);
-        window.location.href = "search.html"
+        window.location.href = "./search.html"
     }
 });
 
