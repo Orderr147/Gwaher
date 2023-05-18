@@ -17,7 +17,7 @@ function mainNavbar(){
     return  `<div class="mobile_res">
     <div class="res_nav clr">
         <div class="res_logo">
-            <img src="./facebook.png" alt="Not found" />
+            <img src="././g" alt="Not found" />
         </div>
 
         <div class="res_profile">
