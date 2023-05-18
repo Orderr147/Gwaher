@@ -31,7 +31,7 @@ function mainNavbar(){
 
             <div> 
                 <img src="https://www.netmeds.com/assets/gloryweb/images/icons/profile_icon.svg" alt="Not found">
-                <h4>&nbsp; <a href="login_signup.html">${user_name_dynamic}</a></h4>
+                <h4>&nbsp; <a href="./login_signup.html">${user_name_dynamic}</a></h4>
             </div>
 
 
@@ -67,7 +67,7 @@ function mainNavbar(){
 
                 
 
-                <span class="input_pin_code tab_res">Deliver to <b>110002</b> &nbsp; &nbsp; <i class="fa-solid fa-angle-down"></i></span>
+                <span class="input_pin_code tab_res">Deliver to <b>1</b> &nbsp; &nbsp; <i class="fa-solid fa-angle-down"></i></span>
 
                 <div class="debounce_search" id="debounce_search_results">
 
@@ -99,7 +99,7 @@ function mainNavbar(){
  <div class="Lower_section">
         <div class="testing">
             <img src="https://www.netmeds.com/assets/version1665682643/gloryweb/images/icons/medicine.svg" />
-            <h5>&nbsp; &nbsp; Medicine &nbsp;<img class="down_arrow" src="img/arrow-216-16.png" alt="">
+            <h5>&nbsp; &nbsp; Medicine &nbsp;<img class="down_arrow" src="./arrow-216-16.png" alt="">
             </h5>
 
             <div class="hidden_div second_hidden_box">
